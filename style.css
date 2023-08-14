@@ -1,0 +1,77 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 52%;
+    height: 645px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    padding: 100px;
+    margin:25px auto
+}
+
+.logo{
+    height: 110px;
+}
+
+header{
+    margin: 0;
+    text-align: center;
+    color: #00dd01;
+}
+
+header>span{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+nav{
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: #00dd01;
+}
+
+main{
+    color: white;
+}
+
+section{
+    margin-top: 20px;
+    font-weight: 200;
+}
+
+.monopattino{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+p{
+    margin: 0
+}
+
+/* Proprietà degli indicatori di carica */
+.charge-container{
+height: 28px;
+border-radius: 5px;
+}
+
+.charge-container.medium-charge{
+width: 340px;
+background-color: rgb(246, 186, 76);
+}
+
+.charge-container.charged{
+width: 580px;
+background-color: rgb(66, 196, 19);
+}
+
+.charge-container.low-charge{
+width:148px;
+background-color: rgba(230, 67, 67, 0.7)
+}
